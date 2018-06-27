@@ -15,6 +15,7 @@
 		1E7BE02E20E2D60600289A14 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E7BE02D20E2D60600289A14 /* main.m */; };
 		1E7BE03820E2D60600289A14 /* Tip_CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E7BE03720E2D60600289A14 /* Tip_CalculatorTests.m */; };
 		1E7BE04320E2D60600289A14 /* Tip_CalculatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E7BE04220E2D60600289A14 /* Tip_CalculatorUITests.m */; };
+		1E7BE05820E3000F00289A14 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E7BE05720E3000F00289A14 /* SettingsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		1E7BE03E20E2D60600289A14 /* Tip CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tip CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E7BE04220E2D60600289A14 /* Tip_CalculatorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tip_CalculatorUITests.m; sourceTree = "<group>"; };
 		1E7BE04420E2D60600289A14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E7BE05620E3000F00289A14 /* SettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		1E7BE05720E3000F00289A14 /* SettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		1E7BE01220E2D60400289A14 = {
 			isa = PBXGroup;
 			children = (
+				1E7BE05620E3000F00289A14 /* SettingsViewController.h */,
+				1E7BE05720E3000F00289A14 /* SettingsViewController.m */,
 				1E7BE01D20E2D60500289A14 /* Tip Calculator */,
 				1E7BE03620E2D60600289A14 /* Tip CalculatorTests */,
 				1E7BE04120E2D60600289A14 /* Tip CalculatorUITests */,
@@ -265,6 +270,7 @@
 				1E7BE02320E2D60500289A14 /* ViewController.m in Sources */,
 				1E7BE02E20E2D60600289A14 /* main.m in Sources */,
 				1E7BE02020E2D60500289A14 /* AppDelegate.m in Sources */,
+				1E7BE05820E3000F00289A14 /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +440,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 786NDH46LQ;
 				INFOPLIST_FILE = "Tip Calculator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +457,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 786NDH46LQ;
 				INFOPLIST_FILE = "Tip Calculator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
